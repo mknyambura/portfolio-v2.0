@@ -348,9 +348,9 @@
         },
         {
             "id": 19,
-            "title": "Itsmercy",
+            "title": "mercy-kariuki",
             "code": "https://github.com/mknyambura/portfolio-v2.0",
-            "website": "",
+            "website": "https://mercy-kariuki.vercel.app/",
             "image": "./images/react/CorporateLandingPage.png",
             "tool1": "React",
             "tool2": "TailwindCSS",
