@@ -335,6 +335,30 @@
             "description": "Creating a corporate landing page using HTML, Tailwind CSS, React, and JavaScript involves combining the strengths of these technologies to build an interactive and visually appealing web page. "
         },
         {
+            "id": 18,
+            "title": "Itsmercy",
+            "code": "https://github.com/mknyambura/itsmercy",
+            "website": "https://itsmercy.vercel.app/",
+            "image": "./images/react/CorporateLandingPage.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github", 
+            "description": "Portfolio v.1.0. "
+        },
+        {
+            "id": 19,
+            "title": "Itsmercy",
+            "code": "https://github.com/mknyambura/portfolio-v2.0",
+            "website": "",
+            "image": "./images/react/CorporateLandingPage.png",
+            "tool1": "React",
+            "tool2": "TailwindCSS",
+            "tool3": "JavaScript",
+            "tool4": "Github", 
+            "description": "Portfolio v.2.0. "
+        },
+        {
             "id": 2,
             "title": "Brida University",
             "code": "https://github.com/mknyambura/brida",
