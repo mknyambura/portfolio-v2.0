@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './About.scss'
 import Footer from '../Footer/Footer'
