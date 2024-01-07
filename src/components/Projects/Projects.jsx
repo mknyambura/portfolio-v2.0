@@ -55,10 +55,11 @@ function Projects() {
                 {showReadLess && (
                     <div className='flex gap-4'>
                       <button
-                        className='text-[#a6a8ab] hover:text-[#333333] hover:underline'
                         onClick={loadLessProjects}
-                      >
-                        Read Less
+                        >
+                        <h1 className='text-xl text-[#a6a8ab] hover:transition-all hover:duration-500 hover:ease-in-out hover:text-2xl hover:text-[#333333] hover:underline'>
+                              Read Less
+                        </h1>
                       </button>
                     </div>
                 )}
@@ -66,10 +67,11 @@ function Projects() {
                 {visibleProjects < data.allprojects.length && (
                   <div className='flex gap-4'>
                     <button
-                      className='text-[#a6a8ab] hover:text-[#333333] hover:underline'
                       onClick={loadMoreProjects}
-                    >
-                      Read More
+                      >
+                        <h1 className='text-xl text-[#a6a8ab] hover:transition-all hover:duration-500 hover:ease-in-out hover:text-2xl hover:text-[#333333] hover:underline'>
+                            Read More
+                        </h1>
                     </button>
                   </div>
                 )}
