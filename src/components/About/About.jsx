@@ -2,6 +2,7 @@
 import Navbar from '../Navbar/Navbar'
 import './About.scss'
 import Footer from '../Footer/Footer'
+import dp from '../About/dp.jpg'
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
                     </h3>
                 </div>
                 <div className='flex flex-row justify-between gap-8 items-center pt-[100px]'>
-                    <img src="src\assets\dp.jpg" alt="dp" width={450} height={450}/>
+                    <img src={dp} alt="dp" width={450} height={450}/>
                     <div className='flex flex-col items-center gap-8'>
                         <p className='text-xl'>
                             I am a data scientist/machine learning engineer with a background in computer science, economics and mathematics
