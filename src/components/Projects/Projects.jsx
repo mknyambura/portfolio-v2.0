@@ -52,10 +52,10 @@
 
 // export default Projects
 
-import React from 'react'
+// import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
-// import data from '../../../projects.json'
+import data from '../../../db.json'
 
 function Projects() {
   return (
