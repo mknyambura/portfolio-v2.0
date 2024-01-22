@@ -13,7 +13,7 @@ function About() {
                 <div className='flex flex-col gap-8 pt-[50px]'>
                     <h1 className='text-[50px] font-bold text-[#333333]'>Mercy F Nyambura Kariuki.</h1>
                     <h3 className='text-xl'>
-                        <a href='https://www.tees.ac.uk/Postgraduate_courses/Computing_&_Cyber_Security/msc_data_science.cfm' className='underline'>Msc. Applied Data Science</a> + Big Data & Intelligence Lab Assistant
+                        <a href='https://www.tees.ac.uk/Postgraduate_courses/Computing_&_Cyber_Security/msc_data_science.cfm' className='underline'>Msc. Applied Data Science (with Advanced Practice)</a> + Big Data & Intelligence Lab Assistant
                         <a href="https://www.tees.ac.uk/" className='underline'>@ Teesside University</a>
                     </h3>
                 </div>
