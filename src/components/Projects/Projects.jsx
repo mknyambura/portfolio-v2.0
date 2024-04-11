@@ -8,7 +8,7 @@ function Projects() {
     const [showReadLess, setShowReadLess] = useState(false);
   
     const loadMoreProjects = () => {
-      const newVisibleProjects = visibleProjects + 5;
+      const newVisibleProjects = visibleProjects + 6;
       setVisibleProjects(newVisibleProjects);
   
       if (newVisibleProjects >= data.allprojects.length) {
@@ -17,7 +17,7 @@ function Projects() {
     };
   
     const loadLessProjects = () => {
-      setVisibleProjects(5);
+      setVisibleProjects(6);
       setShowReadLess(false);
     };
 
