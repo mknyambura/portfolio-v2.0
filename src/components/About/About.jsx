@@ -16,6 +16,7 @@ function About() {
                         <a href='https://www.tees.ac.uk/Postgraduate_courses/Computing_&_Cyber_Security/msc_data_science.cfm' className='underline'>Msc. Applied Data Science (with Advanced Practice)</a> + Big Data & Intelligence Lab Assistant
                         <a href="https://www.tees.ac.uk/" className='underline'> @ Teesside University</a>
                     </h3>
+                    
                 </div>
                 <div className='flex flex-row justify-between gap-8 items-center pt-[100px]'>
                     <img src={dp} alt="dp" width={450} height={450}/>
@@ -24,7 +25,9 @@ function About() {
                             I am a data scientist/machine learning engineer with a background in computer science, economics and mathematics
                             I am currently a student at Teesside University, pursuing a Masters in Applied Data Science
                         </p>
-                        <button className='text-[18px] text-[#7e7e7e] hover:transition-all hover:duration-500 hover:ease-in-out hover:text-[22px] rounded-[20px] hover:underline hover:text-black ml-[20px] mr-[20px] mt-[10px] mb-[10px]'>Resume</button>
+                        <a href='/resume'>
+                            <button className='text-[18px] text-[#7e7e7e] hover:transition-all hover:duration-500 hover:ease-in-out hover:text-[22px] rounded-[20px] hover:underline hover:text-black ml-[20px] mr-[20px] mt-[10px] mb-[10px]'>Resume</button>
+                        </a>
                     </div>
                 </div>
             </div>
