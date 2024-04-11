@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 import data from '../../../db.json'
 
 function Projects() {
-    const [visibleProjects, setVisibleProjects] = useState(5);
+    const [visibleProjects, setVisibleProjects] = useState(6);
     const [showReadLess, setShowReadLess] = useState(false);
   
     const loadMoreProjects = () => {
@@ -28,7 +28,7 @@ function Projects() {
             <div className='pt-[50px]'>
                 <div className='flex flex-col gap-8'>
                     <h1 className='font-bold text-4xl'>Projects</h1>
-                    <h1 className='text-[20px]'>Programming is like unraveling a puzzle, and sometimes the most efficient way to tackle it is to take a step back and consider the broader view. - Mercy Kariuki</h1>
+                    <h1 className='text-[20px]'>Programming is like unraveling a puzzle, and sometimes the most efficient way to tackle it is to take a step back and consider the broader view. - <em><strong>Mercy Kariuki</strong></em></h1>
                 </div> 
                 
                 <div className='flex flex-row w-full h-full'>
