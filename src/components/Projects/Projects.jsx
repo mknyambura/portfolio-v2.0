@@ -32,7 +32,7 @@ function Projects() {
                 </div> 
                 
                 <div className='flex flex-row w-full h-full'>
-                  <div className='grid sm:grid-cols-1 md:grid-cols-2 ml-[50px] mr-[50px]'>
+                  <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ml-[50px] mr-[50px]'>
                     {data.allprojects.slice(0, visibleProjects).map((project) => (
                       <div key={project.id} className='scale-100 hover:transition-all hover:duration-500 hover:ease-in-out hover:shadow-xl hover:shadow-slate-400 hover:scale-110 m-[20px] p-[20px] gap-4 rounded-xl' >
                             <div className='flex flex-row justify-between gap-8 mb-[10px]'>
